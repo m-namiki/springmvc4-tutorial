@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/m-namiki/springmvc4-tutorial/tree/master.svg?style=svg)](https://circleci.com/gh/m-namiki/springmvc4-tutorial/tree/master)
+
 # springmvc4-tutorial
 
 Spring Boot及びSpring Web MVCを利用したWebアプリケーションのサンプル実装です。
