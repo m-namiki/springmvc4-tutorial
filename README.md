@@ -12,4 +12,6 @@ Spring Boot及びSpring Web MVCを利用したWebアプリケーションのサ�
 * spring-boot-devtools
 	* Spring Bootの開発補助ツール。 ホットデプロイなどを機能を提供します
 	* https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
-	
+* spring-boot-starter-test
+	* Spring Boot向けのテストライブラリやその他有用なライブラリが含まれます
+	* https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html
