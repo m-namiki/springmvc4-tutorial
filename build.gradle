@@ -48,6 +48,16 @@ dependencies {
 	providedCompile 'org.eclipse.persistence:org.eclipse.persistence.jpa.modelgen.processor:2.7.0'
 }
 
+
+sourceSets {
+	main { 
+		resources { 
+			srcDirs "src/main/resources"
+			srcDirs "src/${env}/resources"
+		}
+	}
+}
+
 // for thymelear
 ext['thymeleaf.version'] = '3.0.7.RELEASE'
 ext['thymeleaf-layout-dialect.version'] = '2.2.2'
