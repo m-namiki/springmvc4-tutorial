@@ -15,3 +15,7 @@ Spring Boot及びSpring Web MVCを利用したWebアプリケーションのサ�
 * spring-boot-starter-test
 	* Spring Boot向けのテストライブラリやその他有用なライブラリが含まれます
 	* https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html
+	
+## Circle CI
+
+Circle CIの設定ファイルは `.circleci/config.yml`です。  build.gradle及びconfig.ymlで、`gradle test`時に`circleci/resources/application.properties`を読み込むようにしています。
