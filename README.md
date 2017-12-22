@@ -19,3 +19,7 @@ Spring Boot及びSpring Web MVCを利用したWebアプリケーションのサ�
 ## Circle CI
 
 Circle CIの設定ファイルは `.circleci/config.yml`です。  build.gradle及びconfig.ymlで、`gradle test`時に`circleci/resources/application.properties`を読み込むようにしています。
+
+# 郵便番号データについて
+
+[こちら](http://www.post.japanpost.jp/zipcode/download.html)のページからダウンロード可能です。

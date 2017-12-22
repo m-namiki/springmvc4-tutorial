@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.bns_g.springmvc4.tutorial;
 
@@ -19,7 +19,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 /**
  * {@link Application}のテストクラスです。
- * 
+ *
  * @author m2-namiki
  *
  */
