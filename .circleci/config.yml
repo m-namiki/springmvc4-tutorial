@@ -40,6 +40,5 @@ jobs:
         
       # run tests!
       - run: gradle -Penv=circleci test
-
-
-
+      - store_test_results:
+        path: /tmp/test-results
