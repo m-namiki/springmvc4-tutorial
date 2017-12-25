@@ -56,6 +56,13 @@ sourceSets {
 			srcDirs "src/${env}/resources"
 		}
 	}
+	test { 
+		resources { 
+			srcDirs "src/test/resources"
+			srcDirs "src/${env}/resources"
+		}
+	}
+
 }
 
 // for thymelear
