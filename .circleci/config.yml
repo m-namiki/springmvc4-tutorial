@@ -40,3 +40,11 @@ jobs:
         
       # run tests!
       - run: gradle -Penv=circleci test
+
+      - store_artifacts:
+        path: /code/test-results
+        
+      - store_test_results:
+        path: /tmp/test-results
+
+
