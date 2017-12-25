@@ -15,6 +15,9 @@ Spring Boot及びSpring Web MVCを利用したWebアプリケーションのサ�
 * spring-boot-starter-test
 	* Spring Boot向けのテストライブラリやその他有用なライブラリが含まれます
 	* https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html
+* spring-test-dbunit
+	* Spring Boot＋dbunitで、アノテーションベースでDBUnitをサポートするライブラリが含まれます
+	* https://springtestdbunit.github.io/spring-test-dbunit/
 	
 ## Circle CI
 
